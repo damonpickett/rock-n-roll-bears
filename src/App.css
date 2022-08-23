@@ -19,8 +19,13 @@
 
 /* INTRO */
 
+.intro {
+
+}
+
 .intro h1 {
   font-family: 'streamsterregular';
   color: rgb(246, 54, 166);
   text-shadow: 2px 2px blue;
+  font-size: 2.5em;
 }
