@@ -8,13 +8,48 @@
 
 }
 
-* {
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+/* font-family: 'Bangers', cursive; */
+
+body {
   background: black;
   color: white;
 }
 
 .App {
   text-align: center;
+  max-width: 2000px;
+}
+
+/* NAV */
+
+.nav {
+  background-color: rgba(246, 54, 166, 0.6);
+  position: sticky;
+  top: 0;
+}
+
+.nav-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0 10px 15px;
+}
+
+.nav-button {
+  margin-right: 10px;
+  padding: 7px;
+  border: 2px white solid;
+  background-color: inherit;
+  color: white;
+  border-radius: 3px;
+  font-family: 'Bangers', cursive;
+  font-size: 1em;
+}
+
+.burger {
+  
 }
 
 /* INTRO */
@@ -27,5 +62,5 @@
   font-family: 'streamsterregular';
   color: rgb(246, 54, 166);
   text-shadow: 2px 2px blue;
-  font-size: 2.5em;
+  font-size: 2.2em;
 }
