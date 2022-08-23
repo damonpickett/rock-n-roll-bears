@@ -1,3 +1,26 @@
+/* UNIVERSAL */
+@font-face {
+  font-family: 'streamsterregular';
+  src: url('./webfontkit-streamster/streamster-webfont.woff2') format('woff2'),
+       url('./webfontkit-streamster/streamster-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+* {
+  background: black;
+  color: white;
+}
+
 .App {
   text-align: center;
+}
+
+/* INTRO */
+
+.intro h1 {
+  font-family: 'streamsterregular';
+  color: rgb(246, 54, 166);
+  text-shadow: 2px 2px blue;
 }
