@@ -1,7 +1,8 @@
 function About() {
     return (
       <div className="about">
-        About    
+        About
+        <div id='roadmap'></div>
       </div>
     );
   }

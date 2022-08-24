@@ -50,8 +50,89 @@ body {
   font-size: 1em;
 }
 
-.burger {
-  
+/* BURGER MENU */
+
+#burger-menu {
+  background-color: rgb(147, 12, 91);
+  transition: transform 0.4s;
+  transform: translateX(-100vw, 0, 0);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40vw;
+  height: 100vh;
+  display: block;
+}
+
+#burger-menu.hide {
+  transform: translate3d(-40vw, 0, 0);
+}
+
+#burger-menu.show {
+  transform: translate3d(-0vw, 0, 0);
+}
+
+#burger-menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.burger-list {
+  list-style: none;
+  margin-right: 40px;
+  font-family: 'Bangers', cursive;
+}
+
+.burger-list li {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.close-button {
+  text-align: right;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+/* INSTRUCTIONS MODAL */
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  transition-duration: 4s;
+  font-size: 0.94em;
+}
+
+.modal-canvas {
+  max-width: 500px;
+  background-color: rgb(147, 12, 91);
+  color: white;
+  padding: 28px 32px 24px;
+  box-shadow: 0 2px 2px 1px #0F0F0F;
+  text-align: left;
+}
+
+.modal-canvas a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.modal-header {
+  text-align: center;
+  font-family: 'Bangers', cursive;
+}
+
+.exit-button {
+  text-align: right;
 }
 
 /* INTRO */

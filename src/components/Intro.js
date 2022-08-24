@@ -2,9 +2,10 @@
 
 function Intro() {
   return (
+    <>
     <div className="intro">
         <div className="pitch">
-            <p>What if there was a kids show in the 80’s about 4 bears taking the world by storm with their infectious, life-loving glam rock? This NFT project seeks to answer that question. Introducing…</p>
+            <p>What if there was a kids show in the 80’s about four bears taking the world by storm with their infectious, life-loving glam rock? This NFT project seeks to answer that question. Introducing…</p>
         </div>
         <div className="title">
             <h1>Rock 'n' Roll Bears</h1>
@@ -22,6 +23,8 @@ function Intro() {
         </div>
         </div>
     </div>
+    <div id='purchase'></div>
+    </>
   );
 }
 
