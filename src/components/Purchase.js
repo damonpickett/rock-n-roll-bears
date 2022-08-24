@@ -1,7 +1,8 @@
 function Purchase() {
     return (
       <div className="purchase">
-        Purchase    
+        Purchase
+        <div id='about'></div>
       </div>
     );
   }

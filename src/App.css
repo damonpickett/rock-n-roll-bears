@@ -50,8 +50,48 @@ body {
   font-size: 1em;
 }
 
-.burger {
-  
+/* BURGER MENU */
+
+#burger-menu {
+  background-color: rgb(147, 12, 91);
+  transition: transform 0.4s;
+  transform: translateX(-100vw, 0, 0);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40vw;
+  height: 100vh;
+  display: block;
+}
+
+#burger-menu.hide {
+  transform: translate3d(-40vw, 0, 0);
+}
+
+#burger-menu.show {
+  transform: translate3d(-0vw, 0, 0);
+}
+
+#burger-menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.burger-list {
+  list-style: none;
+  margin-right: 40px;
+  font-family: 'Bangers', cursive;
+}
+
+.burger-list li {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.close-button {
+  text-align: right;
+  padding-right: 10px;
+  padding-top: 10px;
 }
 
 /* INTRO */

@@ -1,11 +1,13 @@
 import * as FaIcons from 'react-icons/fa';
 
-function Nav() {
+function Nav(props) {
     return (
+    <>
+      <div id='home'></div>
       <div className="nav">
         <div className='nav-container'>
             <div className='burger'>
-            <FaIcons.FaBars />
+            <FaIcons.FaBars onClick={() => props.setMenu(true)}/>
             </div>
             <div className='nav-buttons'>
                 <button className='nav-button'>Instructions</button>
@@ -13,6 +15,7 @@ function Nav() {
             </div>
         </div>
       </div>
+    </>
     );
   }
   
