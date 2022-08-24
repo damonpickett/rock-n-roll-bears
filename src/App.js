@@ -1,6 +1,9 @@
 import './App.css';
-import Intro from './components/Intro';
 import Nav from './components/Nav';
+import Intro from './components/Intro';
+import Purchase from './components/Purchase';
+import About from './components/About';
+import Roadmap from './components/Roadmap';
 
 
 function App() {
@@ -8,6 +11,9 @@ function App() {
     <div className="App">
       <Nav />
       <Intro />
+      <Purchase />
+      <About />
+      <Roadmap />
     </div>
   );
 }
