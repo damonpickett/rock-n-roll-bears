@@ -4,6 +4,7 @@ import Intro from './components/Intro';
 import Purchase from './components/Purchase';
 import About from './components/About';
 import Roadmap from './components/Roadmap';
+import Social from './components/Social';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Purchase />
       <About />
       <Roadmap />
+      <Social />
     </div>
   );
 }
