@@ -10,7 +10,7 @@ function Nav(props) {
             <FaIcons.FaBars onClick={() => props.setMenu(true)}/>
             </div>
             <div className='nav-buttons'>
-                <button className='nav-button'>Instructions</button>
+                <button onClick={() => {props.setModal(true)}} className='nav-button'>Instructions</button>
                 <button className='nav-button'>Connect Wallet</button>
             </div>
         </div>
