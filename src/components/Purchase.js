@@ -1,6 +1,6 @@
 function Purchase() {
     return (
-      <div className="about">
+      <div className="purchase">
         Purchase    
       </div>
     );

@@ -1,6 +1,6 @@
 function Roadmap() {
     return (
-      <div className="about">
+      <div className="roadmap">
         Roadmap    
       </div>
     );
