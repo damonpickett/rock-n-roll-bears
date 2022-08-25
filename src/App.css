@@ -170,3 +170,9 @@ body {
   margin-bottom: 20px;
   justify-self: center;
 }
+
+/* PURCHASE */
+
+.purchase {
+  background-color: rgba(147, 12, 91, 0.7);
+}
