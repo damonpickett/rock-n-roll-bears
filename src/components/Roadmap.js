@@ -1,7 +1,10 @@
 function Roadmap() {
     return (
       <div className="roadmap">
-        Roadmap
+        <h2>Roadmap</h2>
+        <div className='roadmap-card'>
+
+        </div>
         <div id='social'></div>
       </div>
     );
