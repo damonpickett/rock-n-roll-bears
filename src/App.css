@@ -195,3 +195,23 @@ body {
 .purchase button:hover {
   background-color: rgb(246, 88, 180);
 }
+
+/* ABOUT */
+
+.about {
+  padding: 0 10px;
+}
+
+.about h2 {
+  font-family: 'streamsterregular';
+  color: rgb(248, 3, 146);
+  text-shadow: 2px 2px blue;
+  font-size: 2.2em;
+}
+
+.about p {
+  background: -webkit-linear-gradient(rgb(245, 110, 193), rgb(211, 4, 131));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
