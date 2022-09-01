@@ -1,10 +1,10 @@
 function Purchase() {
     return (
       <div className="purchase">
-        Purchase
+        <button>Mint</button>
         <div id='about'></div>
       </div>
     );
   }
   
-  export default Purchase;
+export default Purchase;
