@@ -1,4 +1,4 @@
-import discord from '../images/icons8-discord-50.png';
+import discord from '../images/discord16x19.png';
 
 function Social() {
     return (

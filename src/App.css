@@ -213,3 +213,10 @@ body {
 .roadmap-card {
 
 }
+
+/* SOCIAL */
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+}
