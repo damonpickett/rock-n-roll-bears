@@ -211,7 +211,21 @@ body {
 /* ROADMAP */
 
 .roadmap-card {
+  margin: 0 auto 50px;
+  background-color: rgb(147, 12, 91);
+  padding: 10px 0;
+  width: 250px;
+  border-radius: 5px;
+  border: solid white 2px;
+}
 
+.phase-list {
+  list-style: none;
+  padding: 0;
+}
+
+.phase-list li {
+  margin-top: 20px;
 }
 
 /* SOCIAL */
