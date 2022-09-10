@@ -219,6 +219,15 @@ body {
   border: solid white 2px;
 }
 
+.progress-sticker {
+  background-color: yellow;
+  font-family: 'Bangers', cursive;
+  color: black;
+  /* width: 100px; */
+  padding: 1px;
+  margin: auto;
+}
+
 .phase-list {
   list-style: none;
   padding: 0;
