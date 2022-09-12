@@ -35,6 +35,7 @@ body {
   background-color: rgb(147, 12, 91);
   position: sticky;
   top: 0;
+  z-index: 2;
 }
 
 .nav-container {
@@ -217,15 +218,22 @@ body {
   width: 250px;
   border-radius: 5px;
   border: solid white 2px;
+  position: relative;
+  z-index: 1;
 }
 
 .progress-sticker {
   background-color: yellow;
   font-family: 'Bangers', cursive;
   color: black;
-  /* width: 100px; */
-  padding: 1px;
-  margin: auto;
+  margin: 0 auto;
+  position: absolute;
+  top: -30px;
+  left: 24px;
+  width: 80%;
+  height: 50px;
+  border-radius: inherit;
+  border: inherit;
 }
 
 .phase-list {
@@ -242,4 +250,8 @@ body {
 .social {
   display: flex;
   justify-content: space-evenly;
+}
+
+.social i, .social img {
+  font-size: 2em;
 }
